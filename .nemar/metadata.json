@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Mind in Motion Young Adults Walking Over Uneven Terrain",
+  "description": "This dataset comprises multimodal neurophysiological and biomechanical recordings from 32 young adults performing walking tasks over uneven terrain at varying speeds. Data include high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, ground reaction forces, and structural MRI-derived head models. Each participant completed two trials per condition lasting three minutes, plus a seated rest baseline, providing a comprehensive resource for investigating neural and muscular control mechanisms during dynamic locomotion.",
+  "methods_description": "Participants completed walking trials over uneven terrain at different speeds, with two repetitions per condition lasting three minutes each, plus a three-minute seated rest trial. High-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction forces were recorded simultaneously. Digitized electrode locations were obtained for each subject, and head models were constructed from T1-weighted structural MRI images.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,12 +21,48 @@
     "David J. Clark": {},
     "Daniel P. Ferris": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004625.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "inertial measurement units"
+    },
+    {
+      "term": "gait"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "walking"
+    },
+    {
+      "term": "biomechanics"
+    },
+    {
+      "term": "locomotion"
+    },
+    {
+      "term": "multimodal neurophysiology"
+    },
+    {
+      "term": "electrode localization"
+    },
+    {
+      "term": "uneven terrain"
+    },
+    {
+      "term": "young adults"
+    },
+    {
+      "term": "ground reaction forces"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004625",
       "identifier_type": "URL",
@@ -39,6 +77,11 @@
       "identifier": "10.18112/openneuro.ds004625",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004625.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -47,12 +90,12 @@
       "award_number": "U01AG061389"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "66.5 GB (1116 files)"
   ],
   "formats": [
     ".asv",
@@ -62,59 +105,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises multimodal neurophysiological and biomechanical recordings from 32 young adults during walking over uneven terrain at varying speeds, plus a seated rest baseline condition. Data include high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, ground reaction forces, and structural MRI-derived head models. Participants completed two trials per walking condition lasting three minutes each, plus a three-minute seated rest baseline, enabling investigation of neural and muscular control mechanisms during dynamic locomotion.",
-  "methods_description": "Data collection involved 32 participants performing walking trials over uneven terrain at different speeds, with two repetitions per condition and a three-minute seated rest baseline condition. High-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction forces were recorded simultaneously. Digitized electrode locations were obtained for each participant, and T1 structural MR images were acquired for head model construction.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "electromyography"
-    },
-    {
-      "term": "gait"
-    },
-    {
-      "term": "locomotion"
-    },
-    {
-      "term": "walking"
-    },
-    {
-      "term": "inertial measurement units"
-    },
-    {
-      "term": "biomechanics"
-    },
-    {
-      "term": "uneven terrain"
-    },
-    {
-      "term": "head model"
-    },
-    {
-      "term": "young adults"
-    },
-    {
-      "term": "dual-layer EEG"
-    },
-    {
-      "term": "high-density EEG"
-    },
-    {
-      "term": "neural control"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "ground reaction forces"
-    },
-    {
-      "term": "structural MRI"
-    }
-  ],
-  "source_hash": "abc69298f2aa724e17d11334d2fcf2ae2a83e78ec93fd6c6ca49c2d732f1514d"
+  "source_hash": "2d9dca097333c2eeffee1c148b9456128a936b79814295c33818ad368ec64fec"
 }
