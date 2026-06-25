@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "Mind in Motion Young Adults Walking Over Uneven Terrain",
   "description": "This dataset comprises multimodal neurophysiological and biomechanical recordings from 32 young adults performing walking tasks over uneven terrain at varying speeds. Data include high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, ground reaction forces, and structural MRI-derived head models. Each participant completed two trials per condition lasting three minutes, plus a seated rest baseline, providing a comprehensive resource for investigating neural and muscular control mechanisms during dynamic locomotion.",
-  "methods_description": "Participants completed walking trials over uneven terrain at different speeds, with two repetitions per condition lasting three minutes each, plus a three-minute seated rest trial. High-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction forces were recorded simultaneously. Digitized electrode locations were obtained for each subject, and head models were constructed from T1-weighted structural MRI images.",
+  "methods_description": "Participants completed walking trials over uneven terrain at different speeds, with two repetitions per condition lasting three minutes each, plus a three-minute seated rest trial. High-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction forces were recorded simultaneously. Digitized electrode locations were documented for each participant, and head models were constructed from T1-weighted structural MRI images.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,13 +29,13 @@
       "term": "electromyography"
     },
     {
-      "term": "inertial measurement units"
-    },
-    {
       "term": "gait"
     },
     {
       "term": "motor control"
+    },
+    {
+      "term": "inertial measurement units"
     },
     {
       "term": "walking"
@@ -44,22 +44,16 @@
       "term": "biomechanics"
     },
     {
-      "term": "locomotion"
+      "term": "ground reaction forces"
     },
     {
-      "term": "multimodal neurophysiology"
-    },
-    {
-      "term": "electrode localization"
+      "term": "structural MRI"
     },
     {
       "term": "uneven terrain"
     },
     {
-      "term": "young adults"
-    },
-    {
-      "term": "ground reaction forces"
+      "term": "locomotion"
     }
   ],
   "related_identifiers": [
