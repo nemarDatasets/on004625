@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Mind in Motion Young Adults Walking Over Uneven Terrain",
-  "description": "This dataset comprises multimodal neurophysiological and biomechanical recordings from 32 young adults performing walking tasks over uneven terrain at varying speeds. Data include high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, ground reaction forces, and structural MRI-derived head models. Each participant completed two trials per condition lasting three minutes, plus a seated rest baseline, providing a comprehensive resource for investigating neural and muscular control mechanisms during dynamic locomotion.",
-  "methods_description": "Participants completed walking trials over uneven terrain at different speeds, with two repetitions per condition lasting three minutes each, plus a three-minute seated rest trial. High-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction forces were recorded simultaneously. Digitized electrode locations were documented for each participant, and head models were constructed from T1-weighted structural MRI images.",
+  "description": "This dataset comprises high-density, dual-layer EEG, neck EMG, IMU acceleration, ground reaction force, and structural MRI-derived head model data from 32 young adult participants walking over uneven terrain and at varying speeds. Each participant completed two three-minute trials per condition along with a seated rest trial. The dataset is designed to support research on the neural and biomechanical correlates of walking balance and gait adaptation on irregular surfaces.",
+  "methods_description": "Data were collected using high-density, dual-layer EEG, neck EMG, IMU acceleration sensors, and ground reaction force platforms while participants walked over uneven terrain and at different speeds. Digitized electrode locations were recorded per subject, and head models were constructed from T1 structural MR images.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,47 +23,38 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "electromyography"
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
-      "term": "gait"
+      "term": "Gait",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
     },
     {
-      "term": "motor control"
+      "term": "Walking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016138"
     },
     {
-      "term": "inertial measurement units"
-    },
-    {
-      "term": "walking"
-    },
-    {
-      "term": "biomechanics"
-    },
-    {
-      "term": "ground reaction forces"
-    },
-    {
-      "term": "structural MRI"
+      "term": "inertial measurement unit"
     },
     {
       "term": "uneven terrain"
     },
     {
-      "term": "locomotion"
+      "term": "ground reaction force"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004625",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004625",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -76,6 +67,11 @@
       "identifier": "10.18112/openneuro.ds004625.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004625",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
