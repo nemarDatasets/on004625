@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Mind in Motion Young Adults Walking Over Uneven Terrain",
-  "description": "This dataset comprises high-density, dual-layer EEG, neck EMG, IMU acceleration, ground reaction force, and structural MRI-derived head model data from 32 young adult participants walking over uneven terrain and at varying speeds. Each participant completed two three-minute trials per condition along with a seated rest trial. The dataset is designed to support research on the neural and biomechanical correlates of walking balance and gait adaptation on irregular surfaces.",
-  "methods_description": "Data were collected using high-density, dual-layer EEG, neck EMG, IMU acceleration sensors, and ground reaction force platforms while participants walked over uneven terrain and at different speeds. Digitized electrode locations were recorded per subject, and head models were constructed from T1 structural MR images.",
+  "description": "A multimodal mobile brain/body imaging dataset from 32 young adults walking over uneven terrain at different speeds. It includes high-density dual-layer EEG, neck EMG, IMU acceleration, ground reaction forces, and head models built from T1-weighted MR images. Each participant also completed a seated rest trial, and digitized electrode locations are provided for every subject.",
+  "methods_description": "Participants completed two three-minute trials for each terrain and speed condition, plus a three-minute seated rest trial. Recordings comprised dual-layer EEG, neck EMG, IMU acceleration, and ground reaction forces. Digitized electrode locations and T1 structural MRI were used to construct head models.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,9 +23,7 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
       "term": "Electromyography",
@@ -33,23 +31,21 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
-      "term": "Gait",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
-    },
-    {
       "term": "Walking",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D016138"
     },
     {
-      "term": "inertial measurement unit"
-    },
-    {
       "term": "uneven terrain"
     },
     {
-      "term": "ground reaction force"
+      "term": "mobile brain/body imaging"
+    },
+    {
+      "term": "dual-layer EEG"
+    },
+    {
+      "term": "ground reaction forces"
     }
   ],
   "related_identifiers": [
@@ -76,7 +72,7 @@
   ],
   "funding_references": [
     {
-      "funder_name": "National Institute of Health",
+      "funder_name": "National Institutes of Health",
       "award_number": "U01AG061389"
     }
   ],
@@ -85,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "66.5 GB (1116 files)"
+    "61.94 GB (1116 files)"
   ],
   "formats": [
     ".asv",
